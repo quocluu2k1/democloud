@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class DemocloudApplication {
 	
-	@GetMapping("/")
+	@GetMapping("")
     	public String demoString1(){
         	return "Hello world!!!";
     	}
